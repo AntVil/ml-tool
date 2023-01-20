@@ -9,6 +9,7 @@ python -m venv venv
 ```
 
 Activate the environment
+
 Windows:
 ```
 ./venv/Scripts/active
