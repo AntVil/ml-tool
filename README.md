@@ -32,3 +32,6 @@ Keep requirements up to date when installing new dependencies
 ```
 pip freeze > requirements.txt
 ```
+
+### testing
+To test if everything is installed and running correct you can run the examples in `./examples/`

@@ -6,3 +6,4 @@
 - For visualizing the data use [matplotlib](https://matplotlib.org/stable)
 - For classic ml-algorithms use [sklearn](https://scikit-learn.org/stable/)
 - For neural networks use [pytorch](https://pytorch.org/)
+- For calculating cnn layers [convnet-calculator](https://madebyollin.github.io/convnet-calculator/)

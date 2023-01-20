@@ -9,6 +9,7 @@ future==0.18.3
 gevent==22.10.2
 gevent-websocket==0.10.1
 greenlet==2.0.1
+joblib==1.2.0
 kiwisolver==1.4.4
 matplotlib==3.6.3
 numpy==1.24.1
@@ -20,8 +21,10 @@ pycparser==2.21
 pyparsing==3.0.9
 python-dateutil==2.8.2
 pytz==2022.7.1
+scikit-learn==1.2.0
+scipy==1.10.0
 six==1.16.0
-sklearn==0.0.post1
+threadpoolctl==3.1.0
 torch==1.13.1
 typing_extensions==4.4.0
 whichcraft==0.6.1
