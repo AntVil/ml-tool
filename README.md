@@ -19,6 +19,23 @@ Unix:
 source venv/bin/activate
 ```
 
+To deactivate the environment later
+
+Windows:
+```
+./venv/Scripts/deactivate
+```
+Unix:
+```zsh
+deactivate
+```
+
+Upgrade pip to the newest version
+(venv's often don't have newest pip)
+```
+pip install --upgrade pip
+```
+
 Install required dependencies
 ```
 pip install -r requirements.txt
