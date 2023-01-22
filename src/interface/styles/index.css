@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    color: var(--font-color);
+    font-family: "Helvetica", "Arial", sans-serif;
+    transition: 0.3s color, 0.3s background-color;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100vh;
+    background-color: var(--theme-color-0);
+    margin: 0;
+}
+
+header{
+    background-color: var(--theme-color-1);
+    padding: 5px;
+}
+
+header>img{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    display: grid;
+}
+
+nav>label{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav>label:hover{
+    color: var(--theme-color-3);
+}
+
+main{
+    padding: 5px;
+}
+
+/* hide screens (checkbox trick) */
+input[type="radio"][name="screen"],
+input[type="radio"][name="screen"]:not(:checked)+section{
+    display: none;
+}

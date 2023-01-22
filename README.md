@@ -4,6 +4,9 @@
 
 ### setup
 Make sure you have one of the following python versions installed: 3.8, 3.9, 3.10
+```
+python --version
+```
 
 Create a virtual environment
 ```
@@ -42,6 +45,8 @@ Install required dependencies
 ```
 pip install -r requirements.txt
 ```
+
+Change the constants for the database in [./src/constants.py](./src/constants.py)
 
 Run the project
 ```

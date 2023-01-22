@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="./images/icon.svg">
         <title>ml-tool</title>
 
+        <link rel="stylesheet" href="./styles/themes.css">
         <link rel="stylesheet" href="./styles/index.css">
         
         <!-- for communication between interface & python -->
@@ -11,6 +13,42 @@
         <script type="text/javascript" src="./scripts/index.js"></script>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <header>
+            <img src="./images/icon.svg" />
+            <nav>
+                <label for="homeScreen">Home</label>
+                <label for="goalsScreen">Week Goals</label>
+                <label for="trainingScreen">Training Supervisor</label>
+                <label for="chatScreen">Chatbot</label>
+                <label for="gamingScreen">RL-Gaming</label>
+            </nav>
+        </header>
+
+        <main>
+            <input id="homeScreen" type="radio" name="screen" autocomplete="off" checked />
+            <section>
+                Home
+            </section>
+
+            <input id="goalsScreen" type="radio" name="screen" autocomplete="off" />
+            <section>
+                Goals
+            </section>
+
+            <input id="trainingScreen" type="radio" name="screen" autocomplete="off" />
+            <section>
+                Training
+            </section>
+
+            <input id="chatScreen" type="radio" name="screen" autocomplete="off" />
+            <section>
+                Chat
+            </section>
+
+            <input id="gamingScreen" type="radio" name="screen" autocomplete="off" />
+            <section>
+                Gaming
+            </section>
+        </main>
     </body>
 </html>

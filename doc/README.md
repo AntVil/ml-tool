@@ -1,6 +1,7 @@
 # ml-tool
 
 ### Links
+- The postgres connection is done using [psycopg2](https://psycopg.org/docs/usage.html)
 - The interface is done using [eel](https://github.com/python-eel/Eel#usage)
 - For working with data use [pandas](https://pandas.pydata.org/)
 - For visualizing the data use [matplotlib](https://matplotlib.org/stable)
