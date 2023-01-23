@@ -46,6 +46,8 @@ Install required dependencies
 pip install -r requirements.txt
 ```
 
+*In case of errors with `psycopg2` install `psycopg2-binary` instead*
+
 Change the constants for the database in [./src/constants.py](./src/constants.py)
 
 Run the project
