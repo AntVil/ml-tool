@@ -3,7 +3,7 @@
 [documentation](./doc/README.md)
 
 ### setup
-Make sure you have one of the following python versions installed: 3.8, 3.9, 3.10
+Make sure you have one of the following python versions installed: `3.8`, `3.9`, `3.10`
 ```
 python --version
 ```
